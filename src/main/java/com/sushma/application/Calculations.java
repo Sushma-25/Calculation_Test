@@ -4,10 +4,10 @@ public class Calculations {
 		return firstValue + secondValue;
 	}
 
-	public int multiply(int i, int j) {
+	/*public int multiply(int i, int j) {
 		return i * j;
 	}
-
+*/
 	public double division(double i, double j) {
 		if (j == 0) {
 			throw new ArithmeticException();
